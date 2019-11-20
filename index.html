@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+    <title>Tic Tac Toe</title>
 </head>
 <body>
-    <script src="./js/script.js"></script>
+    <main>
+        <section>
+            <h1>Tic Tac Toe</h1>
+            <h2 id="message">X's Turn</h2>
+        </section>
+        <section id="gameboard">
+            <div class="square bottom"></div>
+            <div class="square bottom left right"></div>
+            <div class="square bottom"></div>
+            <div class="square"></div>
+            <div class="square left right"></div>
+            <div class="square"></div>
+            <div class="square top"></div>
+            <div class="square top left right"></div>
+            <div class="square top"></div>
+        </section>
+        <section>
+            <button id="reset">Reset Game</button>
+        </section>
+    </main>
 </body>
 </html>
